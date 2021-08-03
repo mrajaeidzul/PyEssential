@@ -23,3 +23,5 @@ try:
         print(i,"-",que.get())
 except QueueError:
     print("Cannot get() new element. The Queue is empty")
+except IndexError:
+    print(IndexError)
